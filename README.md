@@ -38,3 +38,17 @@ The project aims to demonstrate how dilation can improve recognition accuracy, p
    **c. Display Results**
       - Each dilated image is displayed.
       - Larger kernels result in more significant edge expansion because the dilation operation includes more surrounding pixels in the kernel's region.
+
+# Conclusion
+
+## Findings
+- Morphological dilation effectively enhances fragmented or faint strokes in handwritten digits.
+- Models trained on the dilated dataset showed improved recognition accuracy, particularly for challenging samples.
+
+## Challenges
+- Over-dilation occasionally caused merging of distinct strokes, leading to recognition errors.
+- Selecting the optimal kernel size and shape required iterative experimentation.
+
+## Outcomes
+This project demonstrates the potential of morphological dilation as a preprocessing step for handwritten digit recognition tasks. 
+Future work could focus on dynamically adjusting kernel parameters based on input features or extending the method to other datasets with more complex handwriting styles.
