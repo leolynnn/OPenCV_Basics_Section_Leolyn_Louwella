@@ -17,3 +17,9 @@ The project aims to demonstrate how dilation can improve recognition accuracy, p
    - The image file "012345.jpg" is loaded using cv2.imread.
    - If the image is not found or cannot be loaded, image will be None, and a message is printed.
 
+2. **Convert to Grayscale**:
+   - Converts the loaded image to grayscale because the Canny edge detection works on single-channel (grayscale) images.
+   - 
+3. **Canny Edge Detection**:
+   - Detects edges in the grayscale image using the Canny edge detection algorithm.
+   - 150 and 200 are the lower and upper threshold values for detecting edges.
