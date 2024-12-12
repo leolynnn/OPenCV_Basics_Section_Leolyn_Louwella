@@ -11,4 +11,9 @@ Using the MNIST dataset, we preprocess images to repair broken strokes, then eva
 The project aims to demonstrate how dilation can improve recognition accuracy, particularly for challenging samples, by enhancing stroke connectivity and structure.
 # Project Methods
 
+## Step-by-Step Methodology
+
+1. **Read the Image**:
+   - The image file "012345.jpg" is loaded using cv2.imread.
+   - If the image is not found or cannot be loaded, image will be None, and a message is printed.
 
