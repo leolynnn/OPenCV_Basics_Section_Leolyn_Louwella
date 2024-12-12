@@ -68,13 +68,27 @@ The project aims to demonstrate how dilation can improve recognition accuracy, p
 # Additional Materials
 ## Codes
 1. **Read the Image**
+
 ![image](https://github.com/user-attachments/assets/2c848d05-9da8-485d-82d9-adf3c0110e66)
+![image](https://github.com/user-attachments/assets/64957ab0-587e-4551-b0db-cfd6b78b5ac0)
 
-3. **Convert to Grayscale**
+3. **Convert to Grayscale**:
+![image](https://github.com/user-attachments/assets/5e98822f-102b-4f8d-b90a-46833004f21e)
 
-gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+4. **Canny Edge Detection**:
+![image](https://github.com/user-attachments/assets/3b901110-d04d-4a14-bc9d-52fc92de7995)
 
-Include code, images, and results generated during your project.
+5. **Dilation Process**:
+   **a. Create Kernels**:
+![image](https://github.com/user-attachments/assets/919f8e55-1d7c-4ed7-94a0-c65106eef7e1)
+
+   **b. Apply Dilation**:
+![image](https://github.com/user-attachments/assets/d747971f-c1f3-4264-9d6f-f16cc0657fb6)
+
+   **c. Display Results**:
+![image](https://github.com/user-attachments/assets/22f98607-babd-4c69-a4ee-5166506c1b9c)
+![image](https://github.com/user-attachments/assets/e3b4b8be-950b-4ab2-8a9d-0ea3acd90f47)
+
 
 
 
