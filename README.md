@@ -7,7 +7,7 @@ However, handwritten digits often contain fragmented strokes or faded lines, red
 Morphological dilation is a preprocessing technique that enhances such features by filling gaps and improving stroke connectivity, which can significantly improve digit recognition performance.
 ## Abstract
 This project explores the use of morphological dilation to enhance the clarity of handwritten digits with fragmented strokes. 
-Using the MNIST dataset, we preprocess images to repair broken strokes, then evaluate the impact of this enhancement on digit recognition models. 
+Using the numerical handwritten dataset, we preprocess images to repair broken strokes, then evaluate the result of this enhancement by comparing it to its origin image. 
 The project aims to demonstrate how dilation can improve recognition accuracy, particularly for challenging samples, by enhancing stroke connectivity and structure.
 # Project Methods
 
@@ -35,20 +35,32 @@ The project aims to demonstrate how dilation can improve recognition accuracy, p
       - Expands the white regions (edges) in the input image (canny_image).
       - Summarize the results and their implications for practical applications.
         
-   **c. Display Results**
+   **c. Display Results**:
       - Each dilated image is displayed.
       - Larger kernels result in more significant edge expansion because the dilation operation includes more surrounding pixels in the kernel's region.
 
 # Conclusion
 
 ## Findings
-- Morphological dilation effectively enhances fragmented or faint strokes in handwritten digits.
-- Models trained on the dilated dataset showed improved recognition accuracy, particularly for challenging samples.
+1.  **Image Processing Pipeline**:
+- Successfully demonstrated an image processing workflow starting with image loading, grayscale conversion, edge detection, and dilation.
+- The process highlights key operations like cv2.Canny for edge detection and cv2.dilate for morphological transformations.
+
+2.  **Impact of Parameters**:
+- Threshold values in Canny edge detection significantly influence the initial edge quality.
+- Kernel size in dilation determines the extent of edge thickening and connectivity.
 
 ## Challenges
-- Over-dilation occasionally caused merging of distinct strokes, leading to recognition errors.
-- Selecting the optimal kernel size and shape required iterative experimentation.
+1.  **Impact of Parameters**:
+- Poor quality or missing images (e.g., image=None) can disrupt the process, requiring robust error handling and preprocessing.
+
+2.  **Threshold Sensitivity**:
+- Selecting appropriate thresholds for edge detection is critical to obtaining meaningful edges, which may require trial and error.
+
+3.  **Computational Complexity**:
+- Larger kernels and high-resolution images can increase computational load, particularly for iterative or real-time applications.
 
 ## Outcomes
-This project demonstrates the potential of morphological dilation as a preprocessing step for handwritten digit recognition tasks. 
-Future work could focus on dynamically adjusting kernel parameters based on input features or extending the method to other datasets with more complex handwriting styles.
+- Edge Enhancement Achieved: The methodology effectively demonstrates how dilation can modify edge-detected features, enhancing their visibility and connectivity for further processing.
+- Adaptability: The workflow is modular and can be adjusted for different image processing tasks by modifying parameters such as kernel size or edge thresholds.
+- Practical Applications: The approach is foundational for tasks like object recognition, segmentation, and feature extraction in computer vision projects.
