@@ -64,3 +64,21 @@ The project aims to demonstrate how dilation can improve recognition accuracy, p
 - Edge Enhancement Achieved: The methodology effectively demonstrates how dilation can modify edge-detected features, enhancing their visibility and connectivity for further processing.
 - Adaptability: The workflow is modular and can be adjusted for different image processing tasks by modifying parameters such as kernel size or edge thresholds.
 - Practical Applications: The approach is foundational for tasks like object recognition, segmentation, and feature extraction in computer vision projects.
+
+# Additional Materials
+## Codes
+1. **Read the Image**
+![image](https://github.com/user-attachments/assets/2c848d05-9da8-485d-82d9-adf3c0110e66)
+
+3. **Convert to Grayscale**
+
+gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+Include code, images, and results generated during your project.
+
+
+
+
+
+
+
