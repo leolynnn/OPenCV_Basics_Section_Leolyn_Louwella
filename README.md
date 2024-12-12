@@ -19,7 +19,22 @@ The project aims to demonstrate how dilation can improve recognition accuracy, p
 
 2. **Convert to Grayscale**:
    - Converts the loaded image to grayscale because the Canny edge detection works on single-channel (grayscale) images.
-   - 
+     
 3. **Canny Edge Detection**:
    - Detects edges in the grayscale image using the Canny edge detection algorithm.
    - 150 and 200 are the lower and upper threshold values for detecting edges.
+
+4. **Dilation Process**:
+   - Dilation enlarges the edges detected by the Canny algorithm. It uses a structuring element (kernel) and slides it over the image. Wherever the kernel overlaps the white edges (non-zero pixels), the pixels within the kernel area are turned white (non-zero).
+     
+   **a. Create Kernels**:
+      - Creates square kernels (structuring elements) of sizes 1×11 \times 11×1, 3×33 \times 33×3, 5×55 \times 55×5, 7×77 \times 77×7, and 9×99 \times 99×9.
+      - np.uint8 specifies the data type for the kernel.
+
+   **b. Apply Dilation**:
+      - Expands the white regions (edges) in the input image (canny_image).
+      - Summarize the results and their implications for practical applications.
+        
+   **c. Display Results**
+      - Each dilated image is displayed.
+      - Larger kernels result in more significant edge expansion because the dilation operation includes more surrounding pixels in the kernel's region.
