@@ -4,6 +4,13 @@
 ## What is Morphological Dilation?
 Morphological dilation is an operation in mathematical morphology, primarily used in image processing, that grows or expands the boundaries of objects in a binary image. It is typically applied to emphasize certain structures or to fill in small holes and gaps within an object.
 
+## Dilation Application 
+
+### Applications
+* Noise Removal: Removing small black noise from binary images.
+* Shape Analysis: Emphasizing features or shapes in images.
+* Image Preprocessing: Preparing images for further operations like edge detection or segmentation.
+* Bridge Connections: Connecting broken parts of objects in images.
 
 ## Introduction
 Handwritten digit recognition is a fundamental problem in computer vision with applications in digitizing documents, postal mail sorting, and banking. 
