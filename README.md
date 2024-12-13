@@ -17,7 +17,7 @@ Handwritten digit recognition is a fundamental problem in computer vision with a
 However, handwritten digits often contain fragmented strokes or faded lines, reducing recognition accuracy. 
 Morphological dilation is a preprocessing technique that enhances such features by filling gaps and improving stroke connectivity, which can significantly improve digit recognition performance.
 
-## Application of Morphological Dilation in Improving of Handwritten Digit Recognition 
+### Application of Morphological Dilation in Improving of Handwritten Digit Recognition 
 
 * Enhances Stroke Thickness:
   
