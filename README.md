@@ -1,7 +1,7 @@
 # OPenCV_Basics_Section_Leolyn_Louwella
 # Improving Handwritten Digit Recognition Using Morphological Dilation
 
-![improve]"https://github.com/user-attachments/assets/0a496d94-df47-417c-875f-5b914378f56e"alt="improve" width="2500" height="200"
+![improve]"https://github.com/user-attachments/assets/0a496d94-df47-417c-875f-5b914378f56e" width="2500" height="200"
 
 
 ## What is Morphological Dilation?
