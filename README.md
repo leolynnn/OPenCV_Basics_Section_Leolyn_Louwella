@@ -1,6 +1,6 @@
 # OPenCV_Basics_Section_Esguerra_Abong
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b1a6b66b-e27b-4aaf-ba2f-23ed68534962" alt="image" width="2500" height="300">
+  <img src="https://github.com/user-attachments/assets/b1a6b66b-e27b-4aaf-ba2f-23ed68534962" alt="image" width="2500" height="250">
 </p>
 
 ## What is Morphological Dilation?
