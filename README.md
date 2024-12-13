@@ -41,9 +41,8 @@ Morphological dilation is a preprocessing technique that enhances such features 
   - Improves distinguishability between similar digits.
 
 ## Abstract
-This project explores the use of morphological dilation to enhance the clarity of handwritten digits with fragmented strokes. 
-Using the numerical handwritten dataset, we preprocess images to repair broken strokes, then evaluate the result of this enhancement by comparing it to its origin image. 
-The project aims to demonstrate how dilation can improve recognition accuracy, particularly for challenging samples, by enhancing stroke connectivity and structure.
+This project explores the application of morphological dilation to improve the clarity and recognition of handwritten digits with fragmented strokes. Using a numerical handwritten dataset, the study applies dilation as a preprocessing step to repair broken strokes, enhance connectivity, and remove small artifacts in digit images. The effectiveness of this enhancement is evaluated by comparing the processed images to their original counterparts using traditional recognition techniques. The project aims to demonstrate how dilation can significantly improve recognition performance, particularly for challenging samples, by refining the structural integrity of handwritten digits.
+
 # Project Methods
 
 ## Step-by-Step Methodology
