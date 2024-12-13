@@ -1,7 +1,7 @@
 # OPenCV_Basics_Section_Esguerra_Abong
 # Improving Handwritten Digit Recognition Using Morphological Dilation
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b1a6b66b-e27b-4aaf-ba2f-23ed68534962" alt="image" width="2500" height="200">
+  <img src="https://github.com/user-attachments/assets/b1a6b66b-e27b-4aaf-ba2f-23ed68534962" alt="image" width="2500" height="300">
 </p>
 
 ## What is Morphological Dilation?
