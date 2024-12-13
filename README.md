@@ -1,6 +1,10 @@
 # OPenCV_Basics_Section_Leolyn_Louwella
 # Improving Handwritten Digit Recognition Using Morphological Dilation
 
+## What is Morphological Dilation?
+Morphological dilation is an operation in mathematical morphology, primarily used in image processing, that grows or expands the boundaries of objects in a binary image. It is typically applied to emphasize certain structures or to fill in small holes and gaps within an object.
+
+
 ## Introduction
 Handwritten digit recognition is a fundamental problem in computer vision with applications in digitizing documents, postal mail sorting, and banking. 
 However, handwritten digits often contain fragmented strokes or faded lines, reducing recognition accuracy. 
