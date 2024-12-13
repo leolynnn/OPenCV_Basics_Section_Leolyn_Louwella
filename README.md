@@ -21,31 +21,25 @@ Morphological dilation is a preprocessing technique that enhances such features 
 
 * Enhances Stroke Thickness:
   
-Standardizes line widths for better recognition.
+  - Standardizes line widths for better recognition.
 
-Improves faint or broken strokes caused by uneven pressure.
+  - Improves faint or broken strokes caused by uneven pressure.
 
 * Improves Connectivity:
 
-Fills small gaps in digits (e.g., "8" or "4").
-Ensures disconnected parts are treated as a single digit.
-Reduces Noise:
+  - Fills small gaps in digits.
 
-Removes small artifacts or gaps for cleaner digit representation.
-Enhances Features:
+  - Ensures disconnected parts are treated as a single digit.
 
-Highlights key shapes (e.g., loops in "8", vertical bars in "1").
-Improves distinguishability between similar digits (e.g., "1" vs. "7").
-Workflow:
+* Reduces Noise:
 
-Convert images to binary format.
-Apply dilation using an appropriate structuring element.
-Normalize and use processed images for model training/testing.
-Benefits:
+  - Removes small artifacts or gaps for cleaner digit representation.
 
-Higher recognition accuracy.
-Robust handling of diverse handwriting styles.
-Simplified preprocessing for better model performance.
+* Enhances Features:
+
+  - Highlights key shapes.
+  - Improves distinguishability between similar digits.
+
 ## Abstract
 This project explores the use of morphological dilation to enhance the clarity of handwritten digits with fragmented strokes. 
 Using the numerical handwritten dataset, we preprocess images to repair broken strokes, then evaluate the result of this enhancement by comparing it to its origin image. 
