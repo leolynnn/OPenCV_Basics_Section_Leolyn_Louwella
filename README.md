@@ -127,7 +127,7 @@ This project explores the application of morphological dilation to improve the c
 
 ## Other Results
 
-<img src="https://github.com/user-attachments/assets/76c7c910-f37c-4908-83c3-ac55e642e8cd" alt="Screenshot" width="800" height="450">
+<img src="https://github.com/user-attachments/assets/76c7c910-f37c-4908-83c3-ac55e642e8cd" alt="Screenshot" width="2500" height="1000">
 
 
 
