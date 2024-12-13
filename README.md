@@ -102,18 +102,19 @@ This project explores the application of morphological dilation to improve the c
 
 # Additional Materials
 ## Codes
+
 1. **Read the Image**
 
 ![image](https://github.com/user-attachments/assets/2c848d05-9da8-485d-82d9-adf3c0110e66)
 ![image](https://github.com/user-attachments/assets/64957ab0-587e-4551-b0db-cfd6b78b5ac0)
 
-3. **Convert to Grayscale**:
+2. **Convert to Grayscale**:
 ![image](https://github.com/user-attachments/assets/5e98822f-102b-4f8d-b90a-46833004f21e)
 
-4. **Canny Edge Detection**:
+3. **Canny Edge Detection**:
 ![image](https://github.com/user-attachments/assets/3b901110-d04d-4a14-bc9d-52fc92de7995)
 
-5. **Dilation Process**:
+4. **Dilation Process**:
    **a. Create Kernels**:
 ![image](https://github.com/user-attachments/assets/919f8e55-1d7c-4ed7-94a0-c65106eef7e1)
 
