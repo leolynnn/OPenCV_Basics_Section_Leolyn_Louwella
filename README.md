@@ -19,11 +19,13 @@ Morphological dilation is a preprocessing technique that enhances such features 
 
 ## Application of Morphological Dilation in Improving of Handwritten Digit Recognition 
 
-Enhances Stroke Thickness:
-
+* Enhances Stroke Thickness:
+  
 Standardizes line widths for better recognition.
+
 Improves faint or broken strokes caused by uneven pressure.
-Improves Connectivity:
+
+* Improves Connectivity:
 
 Fills small gaps in digits (e.g., "8" or "4").
 Ensures disconnected parts are treated as a single digit.
