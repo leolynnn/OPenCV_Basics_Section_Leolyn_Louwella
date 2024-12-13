@@ -1,4 +1,4 @@
-# OPenCV_Basics_Section_Leolyn_Louwella
+# OPenCV_Basics_Section_Esguerra_Abong
 # Improving Handwritten Digit Recognition Using Morphological Dilation
 
 
