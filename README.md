@@ -1,6 +1,9 @@
 # OPenCV_Basics_Section_Leolyn_Louwella
 # Improving Handwritten Digit Recognition Using Morphological Dilation
 
+![improve]"https://github.com/user-attachments/assets/0a496d94-df47-417c-875f-5b914378f56e"alt="improve" width="2500" height="200"
+
+
 ## What is Morphological Dilation?
 Morphological dilation is an operation in mathematical morphology, primarily used in image processing, that grows or expands the boundaries of objects in a binary image. It is typically applied to emphasize certain structures or to fill in small holes and gaps within an object.
 
